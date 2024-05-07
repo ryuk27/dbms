@@ -3,8 +3,11 @@
 Welcome to the Database Management System (DBMS) repository for the SE IT program at Savitribai Phule Pune University.
 
 ## Overview:
-Below is the overall cheatsheet for MySQL.
-
+Total Assignments : 8
+1. Design and implement a database using DDL statements and apply normalization to them.
+2. Create table with primary key and foreign key constraints.
+3. (a) Alter table with n modify (b) Drop table
+4. 
 ## Exit
 
 ```sql
