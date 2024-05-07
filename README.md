@@ -7,7 +7,11 @@ Total Assignments : 8
 1. Design and implement a database using DDL statements and apply normalization to them.
 2. Create table with primary key and foreign key constraints.
 3. (a) Alter table with n modify (b) Drop table
-4. 
+4. Performing SQl queries.
+5. Execute the DDL statements which demonstrates the use of view.
+6. Stored Procedure & Functions
+7. Execute triggers.
+8. Types of cursors.
 ## Exit
 
 ```sql
