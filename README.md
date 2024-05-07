@@ -5,11 +5,11 @@ Welcome to the Database Management System (DBMS) repository for the SE IT progra
 ## Overview:
 Total Assignments : 8
 1. Design and implement a database using DDL statements and apply normalization to them.
-2. Create table with primary key and foreign key constraints.
-3. (a) Alter table with n modify (b) Drop table
-4. Performing SQl queries.
-5. Execute the DDL statements which demonstrates the use of view.
-6. Stored Procedure & Functions
+2. Create table with primary key and foreign key constraints : (a) Alter table with n modify (b) Drop table
+3. Performing SQl queries.
+4. Execute the DDL statements which demonstrates the use of view.
+5. Stored Procedure
+6. Functions
 7. Execute triggers.
 8. Types of cursors.
 ## Exit
