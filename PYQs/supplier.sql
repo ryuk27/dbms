@@ -10,25 +10,25 @@
 
 -- Create the supplier table
 CREATE TABLE supplier (
-    sid INT PRIMARY KEY,
-    sname VARCHAR(50),
-    address VARCHAR(100)
+sid INT PRIMARY KEY,
+sname VARCHAR(50),
+address VARCHAR(100)
 );
 
 -- Create the parts table
 CREATE TABLE parts (
-    pid INT PRIMARY KEY,
-    pname VARCHAR(50),
-    color VARCHAR(20)
+pid INT PRIMARY KEY,
+pname VARCHAR(50),
+color VARCHAR(20)
 );
 
 -- Create the catalog table
 CREATE TABLE catalog (
-    sid INT,
-    pid INT,
-    cost DECIMAL(10, 2),
-    FOREIGN KEY (sid) REFERENCES supplier(sid),
-    FOREIGN KEY (pid) REFERENCES parts(pid)
+sid INT,
+pid INT,
+cost DECIMAL(10, 2),
+FOREIGN KEY (sid) REFERENCES supplier(sid),
+FOREIGN KEY (pid) REFERENCES parts(pid)
 );
 
 -- Insert sample data into the supplier table
