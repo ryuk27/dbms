@@ -1,12 +1,13 @@
 /* Consider the following Relations. It defines the schema of the database
  application for a bank. It manages the branches and customers of the
  bank. Customers take loans (borrow money) or open accounts (deposit
- money) at one or more branches. [8]
- Branch (B_No, B_name, B_city, asset), Customer (C_No,C_Name,
- C_citystreet)
- Loan(Loan_no, B_name, amount), Account (Acc_No, B_name,
- Balance)
- Borrower (C_No, Loan_No), Depositor (C_No, Acc_No)
+ money) at one or more branches.
+ Branch (B_No, B_name, B_city, asset),
+ Customer (C_No,C_Name, C_citystreet)
+ Loan(Loan_no, B_name, amount),
+ Account (Acc_No, B_name, Balance)
+ Borrower (C_No, Loan_No),
+ Depositor (C_No, Acc_No)
  Answer the following queries in SQL :
 */
 
