@@ -1,4 +1,3 @@
-```sql
 /* Consider the following relations:
  Departments(Department_id, Department_name, manager_id, Location_id)
  Employees(Employee_id, Employee_name, mphone_number, Hire_Date,
@@ -68,4 +67,3 @@ SELECT D.Department_name, D.Location_id, COUNT(E.Employee_id) AS num_employees
 FROM Departments D
 LEFT JOIN Employees E ON D.Department_id = E.Department_Id
 GROUP BY D.Department_name, D.Location_id;
-```
